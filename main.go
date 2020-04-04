@@ -8,7 +8,7 @@ import (
 var feature bool
 
 func sumNew(a int, b int) int {
-	fmt.Println("fixing sum is not completed!")
+	fmt.Println("fixing sum is completed!")
 	return a + b
 }
 
