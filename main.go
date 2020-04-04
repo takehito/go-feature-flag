@@ -7,7 +7,15 @@ import (
 
 var feature bool
 
+func sumNew(a int, b int) int {
+	fmt.Println("fixing sum is not completed!")
+	return a + b
+}
+
 func sum(a int, b int) int {
+	if feature {
+		return sumNew(a, b)
+	}
 	return a + b
 }
 
